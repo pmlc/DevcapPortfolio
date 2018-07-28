@@ -62,3 +62,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # PMLC add firendly ID for routes
 gem 'friendly_id', '~> 5.1.0'
+# PMLC add devise
+gem 'devise', '~> 4.2'
