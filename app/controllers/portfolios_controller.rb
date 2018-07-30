@@ -23,11 +23,11 @@ class PortfoliosController < ApplicationController
       else 
         format.html { render :new } 
       end 
-     end 
     end 
+  end 
 
     def edit 
-      @portfolio_item = Portfolio.find(params[:id]) 
+      @portfolio_item = Portfolio.find(params[:id])
     end 
  
     def update 
