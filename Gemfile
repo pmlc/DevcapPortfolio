@@ -65,3 +65,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 # PMLC add devise
 gem 'devise', '~> 4.2'
+# PMLC style
+ gem 'bootstrap', '~> 4.1.3'
+ # PMLC ;atter version os sprockets-rails for bootstrap
+ gem 'sprockets-rails', :require => 'sprockets/railtie'
