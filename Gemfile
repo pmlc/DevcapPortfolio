@@ -69,3 +69,5 @@ gem 'devise', '~> 4.2'
  gem 'bootstrap', '~> 4.1.3'
  # PMLC ;atter version os sprockets-rails for bootstrap
  gem 'sprockets-rails', :require => 'sprockets/railtie'
+ # PMLC - authorization
+ gem 'petergate', '~> 1.6', '>= 1.6.3'
