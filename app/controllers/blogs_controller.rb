@@ -12,7 +12,8 @@ class BlogsController < ApplicationController
   # GET /blogs/1 
    # GET /blogs/1.json 
   def show 
-    @page_title = "My Portfolio Blog"
+    @page_title = @blog.title
+    @seo_keywords = @blog.body
   end 
  
    # GET /blogs/new 
