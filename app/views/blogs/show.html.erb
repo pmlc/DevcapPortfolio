@@ -9,10 +9,6 @@
   <strong>Body:</strong>
   <%= @blog.body %>
 </p>
-<h2>Technologies Used:</h2> 
- 
- 
- <% @portfolio_item.technologies.each do |t| %> 
- <p><%= t.name %></p> 
- <% end %> 
 
+<%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin) %> | 
+<%= link_to 'Back', blogs_path %> 
